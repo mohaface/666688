@@ -1,6 +1,3 @@
------my_name_is_ehsan*#@mafia_boy
------@ENERGY_TEAM     FOR UPDATE
------لطفا پیام بالا رو پاک نکنید
 function run(msg,matches)
 
  if matches[1] == 'id' or 'ایدی' and msg.reply_to_message_id_ == 0  then
@@ -39,6 +36,3 @@ patterns = {
 },
 run = run
 }
------my_name_is_ehsan*#@mafia_boy
------@ENERGY_TEAM     FOR UPDATE
------لطفا پیام بالا رو پاک نکنید
