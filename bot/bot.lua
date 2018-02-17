@@ -1,8 +1,3 @@
--- #@ENERGY_TEAM
------my_name_is_ehsan*#@mafia_boy
------@ENERGY_TEAM     FOR UPDATE
------لطفا پیام بالا رو پاک نکنید
-
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
@@ -21,7 +16,7 @@ local notify = lgi.require('Notify')
 notify.init ("Telegram updates")
 chats = {}
 plugins = {}
-helper_id = 323046540 --Put Your Helper Bot ID Here
+helper_id = 453401907 --Put Your Helper Bot ID Here
 
 function do_notify (user, msg)
 	local n = notify.Notification.new(user, msg)
@@ -105,7 +100,7 @@ function create_config( )
 	    "PL (19)",
 
 	},
-    sudo_users = {323046540, 417589898, sudo_id},
+    sudo_users = {453401907, 453401907, sudo_id},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
@@ -120,7 +115,7 @@ An advanced administration bot based on https://valtman.name/telegram-cli
 》beyond_permag_bombang
 
 》Our channel :
-》@RICHENERGY%%@energy_team
+》
 
 》Our website :
 》http://telebombang.blogfa.com
@@ -165,7 +160,7 @@ function load_plugins()
 			print('\27[31m'..err..'\27[39m')
 		end
 	end
-	print('\n'..#config.enabled_plugins..' Plugins Are Active\n\nStarting ENERGY Robot...\n')
+	print('\n'..#config.enabled_plugins..' Plugins Are Active\n\nStarting  Robot...\n')
 end
 
 load_plugins()
@@ -413,7 +408,3 @@ function tdcli_update_callback (data)
 		tdcli_function ({ID="GetChats", offset_order_="9223372036854775807", offset_chat_id_=0, limit_=20}, dl_cb, nil)    
 	end
 end
-
------my_name_is_ehsan*#@mafia_boy
------@ENERGY_TEAM     FOR UPDATE
------لطفا پیام بالا رو پاک نکنید
