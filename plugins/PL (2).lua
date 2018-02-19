@@ -2893,7 +2893,7 @@ if matches[1] == "help" and is_mod(msg) then
 if not lang then
 text = [[
 [Help for ultra-energy]
-⬛️》 ENERGY HELP ⬛️
+⬛️》 saeed28 ⬛️
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
 ◽️》 !mod help
 ◾️》راهنما مدیریت
@@ -2909,7 +2909,7 @@ text = [[
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
 💡توجه: ابتدای هر دستور انگلیسی یکی از علامت های [!,/,#] را بگزارید.   
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔖powered by: *@saeed2829*]]
+🔖آیدی سعید by: *https://t.me/saeed2829*]]
 elseif lang then
 text = [[
 [Help for ultra-saeed]
@@ -2929,14 +2929,14 @@ text = [[
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
 💡توجه: ابتدای هر دستور انگلیسی یکی از علامت های [!,/,#] را بگزارید.   
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔖powered by: *@saeed2829*]]
+🔖آیدی سعید by: *https://t.me/saeed2829*]]
 end
 return text
 end
 
 if matches[1] == "انلاینی" and is_mod(msg) then
 text5 = [[
-✔️انلاینم✔️
+✔️آره انلاینم ولی رئیسم  داش سعید هستش😜😂✔️
 ]]
 return text5 
 end
